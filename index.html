@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <head>
+        <style>
+            #Mini-Football {
+                height: 50px;
+                width: 50px;
+                vertical-align: middle;
+            }
+            #Mini-Football-Two {
+                height: 50px;
+                width: 50px;
+                vertical-align: middle;
+            }
+            #Header {
+                text-align: center;
+                font-family: monospace;
+                font-size: 50px;
+                border: 3px solid black;
+                border-radius: 5px;
+                margin-left: 400px;
+                margin-right: 400px;
+                background-color: white;
+            }
+            #NavBar {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: none;
+            }
+            li {
+                display: inline;
+                float: left;
+                border-right: 1px solid black;
+            }
+            li a, .dropbtn {
+                display: inline-block;
+                color: black;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            li a:hover, .dropdown:hover .dropbtn {
+                background-color: rgb(148, 93, 21);
+            }
+            li.dropdown {
+                display: inline-block;
+            }
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #f9f9f9;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+            }
+            .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+            .dropdown-content a:hover {
+                background-color: rgb(148, 93, 21);
+            }
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
+            a {
+                display: block;
+                padding: 8px;
+                background-color: #ffffff;
+            }
+            .active {
+                background-color: rgb(148, 93, 21);
+            }
+            li:last-child {
+                border-right: none;
+            }
+            #Opening-text {
+                font-size: 30px;
+                font-family: Arial, Helvetica, sans-serif;
+                text-indent: 35px;
+                margin-left: 400px;
+                margin-right: 400px;
+                border: 2px solid black;
+                border-radius: 5px;
+                background-color: white;
+            }
+            html {
+                height: 100%;
+            }
+            body {
+                background-image: url("Images/field\ image.webp");
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-position: center;
+                background-size: cover;
+            }
+            table, th, td{
+                background-color: rgb(255, 255, 255);
+                border: 2px solid black;
+                border-collapse: collapse;
+                border-spacing: 5px;
+                font-size: 20px;
+            }
+            th, td {
+                background-color: #3ab936;
+                text-align: center;
+                padding: 5px;
+                
+            }
+            caption {
+                background-color: #3ab936;
+                border: 2px solid black;
+                border-bottom: none;
+                font-size: 20px;
+            }
+            .center {
+                margin-left: auto;
+                margin-right: auto;
+            }
+        </style>
+        <title>
+            Thats Not Holding
+        </title>
+    </head>
+    <body>
+
+        <ul id="NavBar">
+            <li><a class="active" href="index.html">Home</a></li>
+            <li class="dropdown"><a href="javascript:void(0)" class="dropbtn"">Big Boards</a>
+                <div class="dropdown-content">
+                    <a href="Kyles-Board.html">Kyle's Boards</a>
+                    <a href="Zachs-Board.html">Zach's Boards</a>
+                    <a href="Matts-Boards.html">Matt's Boards</a>
+                </div>
+            </li>
+            <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">Mock Drafts</a>
+                <div class="dropdown-content">
+                    <a href="Kyles-Mock.html">Kyle's Mocks</a>
+                    <a href="Kyles-Mock.html">Zach's Mocks</a>
+                    <a href="Matts-Mock-Nov29.html">Matt's Mocks</a>
+                </div>
+            </li>
+            <li><a href="Podcast.html">Podcast</a></li>
+            <li><a href="Merch.html">Merch</a></li>
+            <li style="float:right"><a href="index.html">Contact</a></li>
+        </ul>
+        <br>
+        <br>
+        <div id="Header">
+            <span><img id="Mini-Football" src="Images/Mini Football.jpg" style="padding-left:5px;display:inline-block;">Thats Not Holding<img id="Mini-Football-Two" src="Images/Mini Football.jpg" style="margin-left:5px;display:inline-block; margin-right:5px;display:inline-block;"></span>
+            </div>
+        <p id="Opening-text">
+            Changes I'll be making:<br>
+             -Finishing your mock and board Kyle (god damn you went HAM), those should be done by the end of the week. Or maybe Tuesday, much more productive with this kind of stuff on my days off.
+             As we all do more of them I'll build a table that has hyperlinked dates to each one that we do but the base link you click on in the navigation bar directing you to the most recent mock <strong>I think</strong>. But we
+             can discuss that further later.
+             <br>
+             <br>
+             -Adding articles to this page and getting rid of this text. I imagine this will function
+             a lot like SBnations websites; you'll have the thumbnail with the title to the article
+             underneath. Remind me to send you both an outline for how I want that to look in a word document.
+             <br>
+             <br>
+             -Adding a sort button for each position group in the draft, and picks across rounds on mocks.
+             Meaning you'll be able to view just the receivers if you wanted from your boards, or teams picks
+             from your mocks. Eventually it'll be like a dropdown bar but for now it'll just be hyperlinked text. Like this: <a href="index.html">Receivers</a> <a href="index.html">Jets</a>
+             but better aligned and probably with a bullet point and inside of a table maybe. Again lemme know whatchu both think of that.
+             <br>
+             <br>
+             -Fix the school and team logo sizing issue. They're super uneven, it irks me too lol. That one gonna take a minute.
+             <br>
+             <br>
+             -Any styles you boys want. Literally name it, you want different fonts, let me know. Colors, layouts to height/weight, school, anything.
+             It can all be changed and it'll only make me better so I'm down for whatever. The more specific the better. I'm not super happy with the bubbled text of like "Prospects" or "Matt's Mock" or that shit
+             so design ideas will be greatly appreciated. Also I know the Eagles are missing their trade partners on their picks, but I didn't look up which were from who. I want to make that look prettier too. Like
+             maybe an arrow pointing to indicate where team traded picks came from, or even something like "from" inbetween. But again lemme know.
+             <br>
+             <br>
+             -Whatever else you guys want. If you want to do like player profiles, we could have a page for that, and I could have it so that if you click on the name of said players name on the big board, 
+             it'll take you to that player profile. If we do the mock offseason again, all of that could be incorporated as well. Name it and it can happen. 
+             <br>
+             <br>
+             -I don't want this to just be a for this offseason thing, but something we update and upload new shit to.
+             Like if theres free time and you feel like writing an article about how shitty Howie Roseman is, you can do it. Or if you're bored and wanna just do a mock for the fuck of it, you can upload it.
+             But no pressure as well. If you wanna add new stuff, dope we'll make it happen. But if not it's no biggie either. I wouldn't be opposed to doing other sports either for you boys once I have
+             the football portion in a place thats good.
+             <br>
+             <br>
+             -As i said before eventually I want it so that if you want to do those things, you won't have to go through me, and I should be able to learn all of that sooner than later. But for now since I've already got
+             the base for almost everything I've outlined above, it'll be super easy for me to replicate with different data.
+             <br>
+             <br>
+             -Any and all notes you gents have will be greatly appreciated. Draw pictures of outlines of shit if you want and I can come up with a rough copy of things that we could work with and tweak.
+             <br>
+             <br>
+             -<strong>The navigation links inside Merch/Podcast/Contact will all be super fucked lol. I think they'll all bring you back to this page or to my mock/board. Or they just might not work at all
+                lol.
+             </strong>
+        </p>
+
+            
+
+
+    </body>
+
+
+
+
+
+
+
+
+
+</html>

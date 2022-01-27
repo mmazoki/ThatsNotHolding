@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            Matt's 11/29 Mock
+        </title>
+        <style>
+
+body {
+            background-image: url("Images/draftcard.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+             background-size: cover;
+        }
+        #NavBar {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #333;
+            }
+        li {
+                display: inline;
+                float: left;
+                border-right: 1px solid black;
+            }
+        li a, .dropbtn {
+                display: inline-block;
+                color: black;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+        li a:hover, .dropdown:hover .dropbtn {
+                background-color: #3ab936;
+            }
+        li.dropdown {
+                display: inline-block;
+            }
+        .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #f9f9f9;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+            }
+        .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+        .dropdown-content a:hover {
+                background-color: #3ab936;
+            }
+        .dropdown:hover .dropdown-content {
+                display: block;
+            }
+        a {
+                display: block;
+                padding: 8px;
+                background-color: #ffffff;
+            }
+        .active {
+                background-color: #3ab936;
+            }
+        li:last-child {
+                border-right: none;
+            }
+        .Header {
+                background-color: white;
+                border: 3px solid black;
+                text-align: center;
+                font-size: 30px;
+                margin-left: 600px;
+                margin-right: 600px;
+                border-radius: 10px;
+            }
+        .Board {
+                background-color: white;
+                color: black;
+            }
+        table, th, td {
+                border: 3px solid black;
+                font-size: 20px;
+                margin-left: auto;
+                margin-right: auto;
+                border-collapse: collapse;
+            }
+        td, th {
+                text-align: center;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+            }
+        #small {
+                font-size: 15px;
+            }
+            /* Three image containers (use 25% for four, and 50% for two, etc) */
+        .column {
+                float: left;
+                width: 50%;
+                padding: 5px;
+            }
+        .row::after {
+                content: "";
+                clear: both;
+                display: table;
+            }
+        </style>
+    </head>
+    <body>
+        <ul id="NavBar">
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">Big Boards</a>
+                <div class="dropdown-content">
+                    <a href="Kyles-Board.html">Kyle's Boards</a>
+                    <a href="Zachs-Board.html">Zach's Boards</a>
+                    <a href="Matts-Boards.html">Matt's Boards</a>
+                </div>
+            </li>
+            <li class="dropdown"><a href="javascript:void(0)" class="dropbtn active">Mock Drafts</a>
+                <div class="dropdown-content">
+                    <a href="x">Kyle's Mocks</a>
+                    <a href="x">Zach's Mocks</a>
+                    <a class="active" href="Matts-Mock-Nov29.html">Matt's Mocks</a>
+                </div>
+            </li>
+            <li><a href="Podcast.html">Podcast</a></li>
+            <li><a href="index.html">Merch</a></li>
+            <li style="float:right"><a href="index.html">Contact</a></li>
+        </ul>
+        <br>
+        <br>
+        <br>
+        <p class="Header">Matt's 2022 Mock Draft <br>
+            11/29/21</p>
+        <br>
+        <br>
+        <br>
+        <table style="width: 65%;" class="Board">
+            <tr id="Alabama">
+                <td>4</td>
+                <td><img src="Images/JetsLogo.png" height="35px" width="auto" class="center"></td>
+                <td></td>
+                <td>Evan Neal<br><div id="small">OT Alabama</div></td>
+                <td><div id="small">6'7"<br>360 lbs</div></td>
+            </tr>
+            <tr id="Iowa">
+                <td>5</td>
+                <td><center><img src="Images/JetsLogo.png" height="35px" width="auto"></center></td>
+                    <td><img src="Images/SeahawksLogo.png" height="15px" width="20px"></td>
+                <td>Tyler Linderbaum<br><div id="small">IOL Iowa</div></td>
+                <td><div id="small">6'3"<br>290 lbs</div></td>
+</table>
+</body>
+</html> 

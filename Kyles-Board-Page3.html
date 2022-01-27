@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>
+        Kyle's Boards
+    </title>
+    <style>
+        body {
+            background-image: url("Images/Falconswar.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+             background-size: cover;
+        }
+        #NavBar {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: white;
+            }
+            li {
+                display: inline;
+                float: left;
+                border-right: 1px solid black;
+            }
+            li .First_A, .dropbtn {
+                display: inline-block;
+                color: black;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            li .First_A:hover, .dropdown:hover .dropbtn {
+                background-color: #3ab936;
+            }
+            li.dropdown {
+                display: inline-block;
+            }
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #f9f9f9;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px black;
+                z-index: 1;
+            }
+            .dropdown-content .First_A {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+            .dropdown-content .First_A:hover {
+                background-color: #3ab936;
+            }
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
+            .First_A {
+                display: block;
+                padding: 8px;
+                background-color: #ffffff;
+            }
+            .active {
+                background-color: #3ab936;
+            }
+            li:last-child {
+                border-right: none;
+            }
+            .Header {
+                background-color: white;
+                border: 3px solid black;
+                text-align: center;
+                font-size: 30px;
+                margin-left: 600px;
+                margin-right: 600px;
+                border-radius: 10px;
+            }
+            .Board {
+                background-color: white;
+                color: black;
+            }
+            table, th, td {
+                border: 3px solid black;
+                font-size: 20px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            td {
+                text-align: center;
+            }
+            #small {
+                font-size: 15px;
+            }
+            .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            }
+            .bottom_link {
+            font-size: 18px;
+            }
+            .bottom_link_box {
+            display: flexbox;
+            text-align: center;
+            background-color: white;
+            flex-basis: auto;
+            margin-left: 48%;
+            margin-right: 48%;
+            padding: 3px;
+            border: 1px solid black;
+            }
+            .Prospect_Number {
+            text-align: center;
+            background-color: white;
+            border: 3px solid black;
+            font-size: 30px;
+            margin-left: 600px;
+            margin-right: 600px;
+            border-radius: 10px;
+            }
+
+    </style>
+</head>
+<body>
+    <ul id="NavBar">
+        <li><a class="First_A" href="index.html">Home</a></li>
+        <li class="dropdown"><a href="javascript:void(0)" class="dropbtn active">Big Boards</a>
+            <div class="dropdown-content">
+                <a class="active, First_A" href="Kyles-Board.html">Kyle's Boards</a>
+                <a class="First_A" href="Zachs-Board.html">Zach's Boards</a>
+                <a class="First_A" href="Matts-Boards.html">Matt's Boards</a>
+            </div>
+        </li>
+        <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">Mock Drafts</a>
+            <div class="dropdown-content">
+                <a class="First_A" href="Kyles-Mock.html">Kyle's Mocks</a>
+                <a class="First_A" href="Kyles-Mock.html">Zach's Mocks</a>
+                <a class="First_A" href="Matts-Mock-Nov29.html">Matt's Mocks</a>
+            </div>
+        </li>
+        <li><a class="First_A" href="Podcast.html">Podcast</a></li>
+        <li><a class="First_A" href="index.html">Merch</a></li>
+        <li style="float:right"><a class="First_A" href="index.html">Contact</a></li>
+    </ul>
+    <br>
+    <br>
+    <p class="Header">Kyle's 2022 Big Board <br>
+    1/12/22</p>
+    <p class="Prospect_Number">Prospects:<br>101-150</p>
+    <table style="width: 65%;" class="Board">
+        <tr>
+            <td>101</td>
+            <td><img src="Images/ArizonaState.png" height="35px" width="auto" class="center"></td>
+            <td>Rachaad White<br><div id="small">RB Arizona State</div></td>
+            <td><div id="small">6'1"<br>205 lbs</div></td>
+        <tr>
+            <td style="width: 50px;">102</td>
+            <td style="width: 75px;"><img src="Images/OhioState.webp" height="35px" width="auto" class="center"></td>
+            <td style="width: 150px;">Thayer Munford<br><div id="small">IOL Ohio State</div></td>
+            <td style="width: 100px;"><div id="small">6'6"<br>320 lbs</div></td>
+        </tr>
+        <tr>
+            <td>103</td>
+            <td><img src="Images/BostonCollege.png" height="35px" width="auto" class="center"></td>
+            <td>Alec Lindstrom<br><div id="small">IOL Boston College</div></td>
+            <td><div id="small">6'3"<br>298 lbs</div></td>
+        </tr>
+        <tr>
+            <td>104</td>
+            <td><img src="Images/LSU.png" height="35px" width="auto" class="center"></td>
+            <td>Ali Gaye<br><div id="small">EDGE LSU</div></td>
+            <td><div id="small">6'6"<br>250 lbs</div></td>
+        </tr>
+        <tr>
+            <td>105</td>
+            <td><img src="Images/Alabama.png" height="35px" width="auto" class="center"></td>
+            <td>Brian Robinson Jr.<br><div id="small">RB Alabama</div></td>
+            <td><div id="small">6'1"<br>226 lbs</div></td>
+        </tr>
+        <tr>
+            <td>106</td>
+            <td><img src="Images/OhioState.webp" height="35px" width="auto" class="center"></td>
+            <td>Haskell Garrett<br><div id="small">IDL Ohio State</div></td>
+            <td><div id="small">6'2"<br>300 lbs</div></td>
+        </tr>
+        <tr>
+            <td>107</td>
+            <td><img src="Images/IowaState.png" height="35px" width="auto" class="center"></td>
+            <td>Charlie Kolar<br><div id="small">TE Iowa State</div></td>
+            <td><div id="small">6'6"<br>255 lbs</div></td>
+        </tr>
+        <tr>
+            <td>108</td>
+            <td><img src="Images/Oklahoma.png" height="35px" width="auto" class="center"></td>
+            <td>Eric Gay<br><div id="small">RB Oklahoma</div></td>
+            <td><div id="small">5'9"<br>205 lbs</div></td>
+        </tr>
+        <tr>
+            <td>109</td>
+            <td><img src="Images/LSU.png" height="35px" width="auto" class="center"></td>
+            <td>Damone Clark<br><div id="small">LB LSU</div></td>
+            <td><div id="small">6'3"<br>245 lbs</div></td>
+        </tr>
+        <tr>
+            <td>110</td>
+            <td><img src="Images/Cincinnati.png" height="35px" width="auto" class="center"></td>
+            <td>Darrian Beavers<br><div id="small">LB Cincinnati</div></td>
+            <td><div id="small">6'4"<br>255 lbs</div></td>
+        </tr>
+        <tr>
+            <td>111</td>
+            <td><img src="Images/TennesseeLongHorns.png" height="35px" width="auto" class="center"></td>
+            <td>Alontae Taylor<br><div id="small">CB Tennessee</div></td>
+            <td><div id="small">6'0"<br>193 lbs</div></td>
+        </tr>
+        <tr>
+            <td>112</td>
+            <td><img src="Images/Alabama.png" height="35px" width="auto" class="center"></td>
+            <td>Emil Ekiyor<br><div id="small">IOL Alabama</div></td>
+            <td><div id="small">6'2"<br>324 lbs</div></td>
+        </tr>
+        <tr>
+            <td>113</td>
+            <td><img src="Images/VirginiaTech.png" height="35px" width="auto" class="center"></td>
+            <td>Lecitus Smith<br><div id="small">IOL Virginia Tech</div></td>
+            <td><div id="small">6'3"<br>320 lbs</div></td>
+        </tr>
+        <tr>
+            <td>114</td>
+            <td><img src="Images/Oklahoma.png" height="35px" width="auto" class="center"></td>
+            <td>Tyrese Robinson<br><div id="small">IOL Oklahoma</div></td>
+            <td><div id="small">6'3"<br>334 lbs</div></td>
+        </tr>
+        <tr>
+            <td>115</td>
+            <td><img src="Images/SouthAlabama.png" height="35px" width="auto" class="center"></td>
+            <td>Jalen Tolbert<br><div id="small">WR South Alabama</div></td>
+            <td><div id="small">6'3"<br>190 lbs</div></td>
+        </tr>
+        <tr>
+            <td>116</td>
+            <td><img src="Images/MichiganState.png" height="35px" width="auto" class="center"></td>
+            <td>Jayden Reed<br><div id="small">WR Michigan State</div></td>
+            <td><div id="small">6'0"<br>185 lbs</div></td>
+        </tr>
+        <tr>
+            <td>117</td>
+            <td><img src="Images/Nevada.png" height="35px" width="auto" class="center"></td>
+            <td>Romeo Doubs<br><div id="small">WR Nevada</div></td>
+            <td><div id="small">6'2"<br>200 lbs</div></td>
+        </tr>
+        <tr>
+            <td>118</td>
+            <td><img src="Images/Clemson.png" height="35px" width="auto" class="center"></td>
+            <td>Mario Goodrich<br><div id="small">CB Clemson</div></td>
+            <td><div id="small">6'0"<br>190 lbs</div></td>
+        </tr>
+        <tr>
+            <td>119</td>
+            <td><img src="Images/Kentucky.png" height="35px" width="auto" class="center"></td>
+            <td>Josh Paschal<br><div id="small">EDGE Kentucky</div></td>
+            <td><div id="small">6'3"<br>278 lbs</div></td>
+        </tr>
+        <tr>
+            <td>120</td>
+            <td><img src="Images/WashingtonHuskies.png" height="35px" width="auto" class="center"></td>
+            <td>Zion Tupuola-Fetui<br><div id="small">EDGE Washington</div></td>
+            <td><div id="small">6'4"<br>266 lbs</div></td>
+        </tr>
+        <tr>
+            <td>121</td>
+            <td><img src="Images/Florida.png" height="35px" width="auto" class="center"></td>
+            <td>Zachary Carter<br><div id="small">IDL Florida</div></td>
+            <td><div id="small">6'5"<br>285 lbs</div></td>
+        </tr>
+        <tr>
+            <td>122</td>
+            <td><img src="Images/MarylandTerps.png" height="35px" width="auto" class="center"></td>
+            <td>Nick Cross<br><div id="small">S Maryland</div></td>
+            <td><div id="small">6'1"<br>215 lbs</div></td>
+        </tr>
+        <tr>
+            <td>123</td>
+            <td><img src="Images/Cincinnati.png" height="35px" width="auto" class="center"></td>
+            <td>Jerome Ford<br><div id="small">RB Cincinnati</div></td>
+            <td><div id="small">5'11"<br>220 lbs</div></td>
+        </tr>
+        <tr>
+            <td>124</td>
+            <td><img src="Images/VirginiaTech.png" height="35px" width="auto" class="center"></td>
+            <td>Amaré Barno<br><div id="small">EDGE Virginia Tech</div></td>
+            <td><div id="small">6'6"<br>245 lbs</div></td>
+        </tr>
+        <tr>
+            <td>125</td>
+            <td><img src="Images/Florida.png" height="35px" width="auto" class="center"></td>
+            <td>Brenton Cox Jr.<br><div id="small">EDGE Florida</div></td>
+            <td><div id="small">6'4"<br>250 lbs</div></td>
+        </tr>
+        <tr>
+            <td>126</td>
+            <td><img src="Images/UCLA.png" height="35px" width="auto" class="center"></td>
+            <td>Otito Ogbonnia<br><div id="small">IDL UCLA</div></td>
+            <td><div id="small">6'4"<br>319 lbs</div></td>
+        </tr>
+        <tr>
+            <td>127</td>
+            <td><img src="Images/Kentucky.png" height="35px" width="auto" class="center"></td>
+            <td>Yusuf Corker<br><div id="small">S Kentucky</div></td>
+            <td><div id="small">6'0"<br>197 lbs</div></td>
+        </tr>
+        <tr>
+            <td>128</td>
+            <td><img src="Images/Nebraska.png" height="35px" width="auto" class="center"></td>
+            <td>JoJo Domann<br><div id="small">LB Nebraska</div></td>
+            <td><div id="small">6'1"<br>230 lbs</div></td>
+        </tr>
+        <tr>
+            <td>129</td>
+            <td><img src="Images/Tulsa.jpg" height="35px" width="auto" class="center"></td>
+            <td>Tyler Smith<br><div id="small">IOL Tulsa</div></td>
+            <td><div id="small">6'5"<br>332 lbs</div></td>
+        </tr>
+        <tr>
+            <td>130</td>
+            <td><img src="Images/OleMiss.png" height="35px" width="auto" class="center"></td>
+            <td>Max Mitchell<br><div id="small">OT Louisiana</div></td>
+            <td><div id="small">6'6"<br>300 lbs</div></td>
+        </tr>
+        <tr>
+            <td>131</td>
+            <td><img src="Images/MemphisTigers.png" height="35px" width="auto" class="center"></td>
+            <td>Calvin Austin III<br><div id="small">WR Memphis</div></td>
+            <td><div id="small">5'9"<br>162 lbs</div></td>
+        </tr>
+        <tr>
+            <td>132</td>
+            <td><img src="Images/UCLA.png" height="35px" width="auto" class="center"></td>
+            <td>Kyle Philips<br><div id="small">WR UCLA</div></td>
+            <td><div id="small">5'10"<br>191 lbs</div></td>
+        </tr>
+        <tr>
+            <td>133</td>
+            <td><img src="Images/MissouriTigers.png" height="35px" width="auto" class="center"></td>
+            <td>Akayleb Evans<br><div id="small">CB Missouri</div></td>
+            <td><div id="small">6'2"<br>198 lbs</div></td>
+        </tr>
+        <tr>
+            <td>134</td>
+            <td><img src="Images/Auburn.png" height="35px" width="auto" class="center"></td>
+            <td>Nehemiah Pritchett<br><div id="small">CB Auburn</div></td>
+            <td><div id="small">6'1"<br>179 lbs</div></td>
+        </tr>
+        <tr>
+            <td>135</td>
+            <td><img src="Images/MiamiHurricanes.png" height="35px" width="auto" class="center"></td>
+            <td>Zion Nelson<br><div id="small">OT Miami</div></td>
+            <td><div id="small">6'5"<br>316 lbs</div></td>
+        </tr>
+        <tr>
+            <td>136</td>
+            <td><img src="Images/UTSA.jpg" height="35px" width="auto" class="center"></td>
+            <td>Spencer Burford<br><div id="small">IOL UTSA</div></td>
+            <td><div id="small">6'5"<br>295 lbs</div></td>
+        </tr>
+        <tr>
+            <td>137</td>
+            <td><img src="Images/WesternKentucky.png" height="35px" width="auto" class="center"></td>
+            <td>Deangelo Malone<br><div id="small">EDGE Western Kentucky</div></td>
+            <td><div id="small">6'4"<br>250 lbs</div></td>
+        </tr>
+        <tr>
+            <td>138</td>
+            <td><img src="Images/OhioState.webp" height="35px" width="auto" class="center"></td>
+            <td>Sevyn Banks<br><div id="small">CB Ohio State</div></td>
+            <td><div id="small">6'1"<br>200 lbs</div></td>
+        </tr>
+        <tr>
+            <td>139</td>
+            <td><img src="Images/ArizonaState.png" height="35px" width="auto" class="center"></td>
+            <td>Dohnovan West<br><div id="small">IOL Arizona State</div></td>
+            <td><div id="small">6'4"<br>300 lbs</div></td>
+        </tr>
+        <tr>
+            <td>140</td>
+            <td><img src="Images/BostonCollege.png" height="35px" width="auto" class="center"></td>
+            <td>Tyler Vrabel<br><div id="small">OT Boston College</div></td>
+            <td><div id="small">6'5"<br>310 lbs</div></td>
+        </tr>
+        <tr>
+            <td>141</td>
+            <td><img src="Images/Michigan.png" height="35px" width="auto" class="center"></td>
+            <td>Andrew Stueber<br><div id="small">OT Michigan</div></td>
+            <td><div id="small">6'7"<br>338 lbs</div></td>
+        </tr>
+        <tr>
+            <td>142</td>
+            <td><img src="Images/Wyoming.png" height="35px" width="auto" class="center"></td>
+            <td>Chad Muma<br><div id="small">LB Wyoming</div></td>
+            <td><div id="small">6'3"<br>242 lbs</div></td>
+        </tr>
+        <tr>
+            <td>143</td>
+            <td><img src="Images/Wisconsin.png" height="35px" width="auto" class="center"></td>
+            <td>Jack Sanborn<br><div id="small">LB Wisconsin</div></td>
+            <td><div id="small">6'2"<br>245 lbs</div></td>
+        </tr>
+        <tr>
+            <td>144</td>
+            <td><img src="Images/ArizonaState.png" height="35px" width="auto" class="center"></td>
+            <td>Jack Jones<br><div id="small">CB Arizona State</div></td>
+            <td><div id="small">5'9"<br>171 lbs</div></td>
+        </tr>
+        <tr>
+            <td>145</td>
+            <td><img src="Images/MiamiOH.png" height="35px" width="auto" class="center"></td>
+            <td>Sterling Weatherford<br><div id="small">S Miami (OH)</div></td>
+            <td><div id="small">6'4"<br>215 lbs</div></td>
+        </tr>
+        <tr>
+            <td>146</td>
+            <td><img src="Images/BoiseState.png" height="35px" width="auto" class="center"></td>
+            <td>Khalil Shakir<br><div id="small">WR Boise State</div></td>
+            <td><div id="small">6'0"<br>185 lbs</div></td>
+        </tr>
+        <tr>
+            <td>147</td>
+            <td><img src="Images/TennesseeLongHorns.png" height="35px" width="auto" class="center"></td>
+            <td>Cade Mays<br><div id="small">IOL Tennessee</div></td>
+            <td><div id="small">6'5"<br>325 lbs</div></td>
+        </tr>
+        <tr>
+            <td>148</td>
+            <td><img src="Images/NCState.png" height="35px" width="auto" class="center"></td>
+            <td>Zonovan Knight <br><div id="small">RB NC State</div></td>
+            <td><div id="small">5'11"<br>210 lbs</div></td>
+        </tr>
+        <tr>
+            <td>149</td>
+            <td><img src="Images/Florida.png" height="35px" width="auto" class="center"></td>
+            <td>Dameon Pierce<br><div id="small">RB Florida</div></td>
+            <td><div id="small">5'10"<br>215 lbs</div></td>
+        </tr>
+        <tr>
+            <td>150</td>
+            <td><img src="Images/Indiana.png" height="35px" width="auto" class="center"></td>
+            <td>Micah McFadden<br><div id="small">LB Indiana</div></td>
+            <td><div id="small">6'2"<br>232 lbs</div></td>
+        </tr>
+    </table>
+    <br>
+    <div class="bottom_link_box">
+        <a class="bottom_link" href="Kyles-Board.html">1</a>
+        <a class="bottom_link" href="Kyles-Board-Page2.html">2</a>
+        <a class="bottom_link" href="Kyles-Board-Page3.html">3</a>
+        <a class="bottom_link" href="Kyles-Board-Page4.html">4</a>
+
+    </div>
+</body>
+</html>
